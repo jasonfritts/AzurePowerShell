@@ -1,5 +1,5 @@
-﻿$ClientID       = "b0eb5148-fa60-4b20-a4e9-a1d0bf2bd284"       # Insert your application's Client ID, a Globally Unique ID (registered by Global Admin)
-$ClientSecret   = "k07eddfb-6561-4a13-9933-3f86ca352cf4"   # Insert your application's Client Key/Secret string
+$ClientID       = "a0eb5148-fa60-4b20-a4e9-a1d0bf2bd284"       # Insert your application's Client ID, a Globally Unique ID (registered by Global Admin)
+$ClientSecret   = "607eddfb-6561-4a13-9933-3f86ca352cf4"   # Insert your application's Client Key/Secret string
 $loginURL       = "https://login.microsoftonline.com"     # AAD Instance; for example https://login.microsoftonline.com
 $tenantdomain = "jasonfritts.onmicrosoft.com"  # AAD tenant ID
 $vaultUri = "https://kvfritts2.vault.azure.net/secrets/Secret1/0193486d28034d35bf8334842d3efe0f?api-version=2016-10-01"   # Key Vault resource URI, include version
