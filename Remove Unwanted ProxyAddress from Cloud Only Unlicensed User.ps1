@@ -1,4 +1,4 @@
-﻿# summary
+﻿# README
 # This script will assist in removing an unwanted ProxyAddress from an AAD Cloud Only \ Unlicensed (no EXO) user
 # For such a user, the proxyAddresses attribute is Read Only.  So the below workaround is only option to remove unwanted ProxyAddress from such a user
 #
