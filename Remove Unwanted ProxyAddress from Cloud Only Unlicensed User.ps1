@@ -16,7 +16,7 @@ Connect-AzureAD
 
 
 # Step 1: Locate the user who currently holds the unwanted proxy address
-$proxy = "uwanted@domain.com"
+$proxy = "unwanted@domain.com"
 $user = Get-AzureADUser -Filter "proxyAddresses/any(p:startswith(p,'smtp:$proxy'))"
 
 # Step 2. Temporarily soft-delete the user who holds the unwanted proxy address
