@@ -5,7 +5,7 @@ if (!(Get-InstalledModule Microsoft.Graph -ErrorAction SilentlyContinue)) {
 }
  
 if (!(Get-MgContext -ErrorAction SilentlyContinue)) {
-    Connect-MgGraph -Scopes "Directory.Read.All,Group.Read.All"
+    Connect-MgGraph -Scopes "Directory.Read.All,Group.Read.All,Group.ReadWrite.All"
 }
 
 # Query all dynamic groups and return those with a membership rule that contains memberOf rule
